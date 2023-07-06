@@ -21,6 +21,12 @@ AlmaLinux9 Bash shell
 
 `vim` allows to edit a file. To save the changes and exit Vim, press the Esc key to exit insert mode, then type :wq and press Enter.
 
+`less` allows you to view the contents of a file in the terminal interactively.
+
+`less -S "filename"` Replace "filename" with the actual name of the file you want to view. Once executed, you can navigate through the file using the arrow keys, page up/down, and other navigation keys specified by the "less" pager.
+
+`more` allows you to view the contents of a file in the terminal.
+
 `mkdir` creates a new directory with the specified name in the current working directory. 
 
 `mkdir folder1 folder2 folder3` is used to create multiple directories at once. 
