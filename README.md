@@ -1,2 +1,4 @@
-# BFG-unimi
-This repository is dedicated to store and organize the resources, projects, and notes related to the BFG unimi master.
+# Notes 
+
+* [AlmaLinux9 Bash shell](bash_shell.md)
+
