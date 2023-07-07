@@ -40,8 +40,8 @@ def visualize_pdb_with_ligand(pdb_file, ligand_residue, active_residues):
     # Highlight active residues based on residue numbers
     viewer.setStyle({'resi': active_residues}, {'stick': {'colorscheme': 'lightgreyCarbon'}})
 
-    # Add labels to ligand residue
-    viewer.addLabel(f'{ligand_residue} ({ligand_residue})', {'fontColor': 'black', 'backgroundColor': 'white', 'fontSize': 10.5}, {'resn': ligand_residue})
+    # Add labels to ligand residue, replace 'ligand_name' with the name of your ligand
+    viewer.addLabel(f'ligand_name', {'fontColor': 'black', 'backgroundColor': 'white', 'fontSize': 10.5}, {'resn': ligand_residue})
 
     # Parse atom information from the PDB file
     atoms = parse_pdb_atoms(pdb_file)
