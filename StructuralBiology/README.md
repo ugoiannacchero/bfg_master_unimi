@@ -21,7 +21,7 @@ active_residues = [102, 154, 178]
  `ligand_residue = 'LIG'` replace 'LIG' with the actual residue name of your ligand
  <br>
  `active_residues= [102, 154, 178]` generates a list of residue numbers that are considered active in the context of the ligand.
- Each residue number corresponds to a specific amino acid residue in a protein structure.
+ Each residue number corresponds to a specific amino acid residue in a protein structure. 102, 154 and 170 are just an example.
  ______________________________________________________________________________________________________________________________
 
  ## pars_pdb_atoms function
