@@ -6,9 +6,4 @@ This program consists of multiple files that need to be located in the same dire
 To run the code with a different pdb structure ensure to change the path and the name of:
 * the variable name and the path of the PDB docked complex
 * the name of the ligand residue
-* active residues
-
-# Example:
-pdb_file = "path/to/your/pdb/file.pdb"
-ligand_residue = 'LIG'  # Replace 'LIG' with the actual residue name of your ligand
-active_residues_srt2104 = [1, 2, 3] # Replace '1, 2, 3' with the actural active residues position
+* the number of the active residues
