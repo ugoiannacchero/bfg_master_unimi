@@ -2,7 +2,7 @@ import py3Dmol
 
 pdb_file= 'path/to/your/pdb/file.pdb' # Replace with the path of your pdb file
 ligand_residue = 'LIG'                # Replace 'LIG' with the actual residue name of your ligand
-active_residues = [102, 154, 178]     # The variable `active_residues_rsv` represents a list of residue numbers that are considered active in the context of the ligand.
+active_residues = [102, 154, 178]     # The variable `active_residues` represents a list of residue numbers that are considered active in the context of the ligand.
                                       # Each residue number corresponds to a specific amino acid residue in a protein structure.
 
 def parse_pdb_atoms(pdb_file):
