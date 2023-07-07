@@ -92,7 +92,7 @@ Here's how it works:
 To use this function, you need to provide the required arguments: `pdb_file` (the path to the PDB file), `ligand_residue` (the name of the ligand residue), and `active_residues` (a list of active residue numbers). Once you call the function with the appropriate arguments, it will generate the protein-ligand visualization using Py3Dmol. Within the function `f'ligand_name'` is used as the label for the ligand residue in the visualization, it has to be replaced with the actual name of the ligand you want to display.
 _________________________________________________________________________________________________________________________
 
-You can see an example of how this function works in [StructuralBiology_JC](StructuralBiology/StructuralBiology_JC.ipynb) where I visualize two docked ligand-protein complexes generated my by groupmates of a Strucutral Biology journal club of the BFG master.
+You can see an example of how this function works in [StructuralBiology_JC](StructuralBiology_JC.ipynb) where I visualize two docked ligand-protein complexes generated my by groupmates of a Strucutral Biology journal club of the BFG master.
 
 
 
