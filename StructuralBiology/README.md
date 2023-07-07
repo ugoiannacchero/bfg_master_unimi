@@ -11,7 +11,7 @@ A protein structure with the ligand is required. One can try using a structure d
 ## Usage:
 
 ```
-pdb_file= 'path/to/your/pdb/file.pdb'
+pdb_file = 'path/to/your/pdb/file.pdb'
 ligand_residue = 'LIG'
 active_residues = [102, 154, 178] 
 ```
