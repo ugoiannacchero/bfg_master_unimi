@@ -1,4 +1,4 @@
-I used py3dmol to generate several functions that enable the visualization of ligand-protein complexes from PDBs.
+I used py3Dmol to generate several functions that enable the visualization of ligand-protein complexes from PDBs.
 
 ## Requirements:
 
