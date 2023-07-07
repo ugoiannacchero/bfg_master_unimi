@@ -8,7 +8,7 @@ import py3Dmol
 ```
 A protein structure with the ligand is required. One can try using a structure directly obtained from [Protein Data Bank](https://www.rcsb.org).
 
-## Usage:
+## Necessary arguments:
 
 ```
 pdb_file = 'path/to/your/pdb/file.pdb'
