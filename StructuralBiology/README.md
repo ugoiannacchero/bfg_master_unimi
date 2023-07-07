@@ -1,6 +1,6 @@
-I used py3Dmol to generate several functions that enable the visualization of ligand-protein complexes from PDBs.
+I used py3Dmol to generate a function that allows the visualization of ligand-protein complexes from a pdb file.
 
-## Requirements:
+#### Requirements:
 
 Requires py3Dmol library
 ```
@@ -8,7 +8,7 @@ import py3Dmol
 ```
 A protein structure with the ligand is required. One can try using a structure directly obtained from [Protein Data Bank](https://www.rcsb.org).
 
-## Necessary arguments:
+#### Necessary arguments:
 
 ```
 pdb_file = 'path/to/your/pdb/file.pdb'
@@ -16,15 +16,15 @@ ligand_residue = 'LIG'
 active_residues = [102, 154, 178] 
 ```
 
- `pdb_file= 'path/to/your/pdb/file.pdb'` replace with the path of your pdb file
- <br>
- `ligand_residue = 'LIG'` replace 'LIG' with the actual residue name of your ligand
- <br>
- `active_residues= [102, 154, 178]` generates a list of residue numbers that are considered active in the context of the ligand.
- Each residue number corresponds to a specific amino acid residue in a protein structure. 102, 154 and 170 are just an example.
- ______________________________________________________________________________________________________________________________
+`pdb_file= 'path/to/your/pdb/file.pdb'` replace with the path of your pdb file
+<br>
+`ligand_residue = 'LIG'` replace 'LIG' with the actual residue name of your ligand
+<br>
+`active_residues= [102, 154, 178]` generates a list of residue numbers that are considered active in the context of the ligand.
+Each residue number corresponds to a specific amino acid residue in a protein structure. 102, 154 and 170 are just an example.
+______________________________________________________________________________________________________________________________
 
- ## pars_pdb_atoms function
+#### pars_pdb_atoms function:
 
 ```
 def parse_pdb_atoms(pdb_file):
@@ -54,7 +54,7 @@ Here's how it works:
 
  ______________________________________________________________________________________________________________________________
 
- ## visualize_pdb_with_ligand function
+ #### visualize_pdb_with_ligand function:
 
 ```
 def visualize_pdb_with_ligand(pdb_file, ligand_residue, active_residues):
@@ -88,5 +88,11 @@ Here's how it works:
 8. Labels are added for the active residues based on their residue numbers and names obtained from the parsed atom information.
 9. The view is set to focus on the ligand.
 10. The viewer is displayed to show the visualization.
-
+    
 To use this function, you need to provide the required arguments: `pdb_file` (the path to the PDB file), `ligand_residue` (the name of the ligand residue), and `active_residues` (a list of active residue numbers). Once you call the function with the appropriate arguments, it will generate the protein-ligand visualization using Py3Dmol. Within the function `f'ligand_name'` is used as the label for the ligand residue in the visualization, it has to be replaced with the actual name of the ligand you want to display.
+_________________________________________________________________________________________________________________________
+
+You can see an example of how this function works in [StructuralBiology_JC.ipynb](StructuralBiology/StructuralBiology_JC.ipynb) where I visualize two docked ligand-protein complexes generated my by groupmates of a Strucutral Biology journal club of the BFG master.
+
+
+
