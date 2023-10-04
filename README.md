@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 # Contents
 
 * [AlmaLinux9 Bash shell](bash_shell.md)
 * [Visualizing protein-ligand structures on py3Dmol](StructuralBiology/README.md)
 
 
-=======
 <div align="center">
 &nbsp;
 <img src="https://github.com/ugoiannacchero/ugoiannacchero/blob/main/GIFs/rightarrow.gif" width="40" height="20"> <a title="English" href="./README.md"><kbd><img width="30px" src="https://flagicons.lipis.dev/flags/4x3/gb.svg"></kbd></a> <img src="https://github.com/ugoiannacchero/ugoiannacchero/blob/main/GIFs/leftarrow.gif" width="40" height="20">
