@@ -1,1 +1,1 @@
-Python exercises on dataset exploration
+Python exercises on some Kaggle's dataset exploration
