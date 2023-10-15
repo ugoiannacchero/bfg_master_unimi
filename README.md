@@ -1,7 +1,15 @@
 Converting ipynb notebooks to other formats:
 
-pip install pandoc
-pip install ipython
+Requirements
+
+pandoc
+ipython
+conda 
+jupnote
+
+- - - - - - - - - - - - - - - - - - - - - - - 
+
+conda activate jup note
 
 jupyter nbconvert --to FORMAT file.ipynb
 
