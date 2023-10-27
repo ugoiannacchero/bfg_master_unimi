@@ -1,5 +1,3 @@
-In questa cartella Python carico gli esercizi che svolgo. 
+In questa cartella Python carico alcuni script di esercizi in Python che svolgo.
 
-Alcuni dataset ed esercizi li prendo dal canale youtube DATA SCIENCE LOVER.
-
-Altri esercizi su Python li prendo dalla playlist di Edoardo Midali. 
+Nella cartella notebooks inserisco i notebooks di jupyter.
